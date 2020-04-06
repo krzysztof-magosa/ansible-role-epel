@@ -1,0 +1,27 @@
+galaxy_info:
+  role_name: "epel"
+  author: "Krzysztof Magosa"
+  description: "Configures EPEL repository"
+  license: "MIT"
+  min_ansible_version: "2"
+  platforms:
+    - name: EL
+      versions:
+        - 8
+        - 7
+    - name: Debian
+      versions:
+        - bullseye # 11
+        - buster   # 10
+    - name: Ubuntu
+      versions:
+        - disco
+        - bionic
+  # galaxy_tags:
+  #   - tag_name
+
+# dependencies:
+#   - src: git@github.com:repo/name.git
+#     scm: git
+#     name: role_name
+#   - galaxy_user.role
