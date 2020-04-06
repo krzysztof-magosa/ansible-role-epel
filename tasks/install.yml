@@ -1,0 +1,4 @@
+- name: Install epel
+  package:
+    name: "{{ epel_pkg }}{% if epel_version %}-{{ epel_version }}{% endif %}"
+    state: present
